@@ -1,4 +1,6 @@
-Este repositório contém todo o código-fonte do curso __Manual Prático do Deep Learning__ no [Udemy](www.udemy.com/). Siga as instruções abaixo para instalação e configuração do repositório.
+> Em desenvolvimento
+
+Este repositório contém todo o código-fonte do curso __Manual Prático do Deep Learning__ no Udemy (link em breve). Siga as instruções abaixo para instalação e configuração do repositório.
 
 # Instalação
 
@@ -28,7 +30,7 @@ Este repositório contém todo o código-fonte do curso __Manual Prático do Dee
     ```sh
     $ jupyter notebook
     ```
-A instalação do ambiente deve ser executada somente uma vez, enquanto o ambiente deve ser ativado sempre que você quiser executar os códigos do repositório.
+> A instalação do ambiente deve ser executada somente uma vez, enquanto o ambiente deve ser ativado sempre que você quiser executar os códigos do repositório.
 
 Se você preferir instalar todos os pacotes individualmente, digite:
 ```sh
