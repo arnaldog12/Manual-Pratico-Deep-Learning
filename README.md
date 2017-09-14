@@ -34,6 +34,6 @@ Este repositório contém todo o código-fonte do curso __Manual Prático do Dee
 
 Se você preferir instalar todos os pacotes individualmente, digite:
 ```sh
-$ conda create -n dl python=3.6 numpy pandas matplotlib jupyter scikit-learn widgetsnbextension
-$ conda install -c conda-forge jupyter_contrib_nbextensions
+$ conda create -n dl python=3.6 numpy pandas matplotlib jupyter scikit-learn widgetsnbextension tensorflow
+$ conda install -c conda-forge keras jupyter_contrib_nbextensions
 ```
