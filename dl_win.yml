@@ -24,7 +24,7 @@ dependencies:
 - ipykernel=4.6.1=py36_0
 - ipython=6.1.0=py36_0
 - ipython_genutils=0.2.0=py36_0
-- ipywidgets=6.0.0=py36_0
+- ipywidgets=5.2.2=py36_1
 - jedi=0.10.2=py36_2
 - jinja2=2.9.6=py36_0
 - jpeg=9b=vc14_0
@@ -97,7 +97,7 @@ dependencies:
 - scikit-learn=0.19.0=np113py36_0
 - scipy=0.19.1=np113py36_0
 - seaborn=0.8=py36_0
-- setuptools=36.4.0=py36_0
+- setuptools=36.4.0=py36_1
 - simplegeneric=0.8.1=py36_1
 - sip=4.18=py36_0
 - six=1.10.0=py36_0
@@ -113,7 +113,7 @@ dependencies:
 - wcwidth=0.1.7=py36_0
 - werkzeug=0.12.2=py36_0
 - wheel=0.29.0=py36_0
-- widgetsnbextension=3.0.2=py36_0
+- widgetsnbextension=1.2.6=py36_0
 - wincertstore=0.2=py36_0
 - yaml=0.1.6=0
 - zlib=1.2.11=vc14_0
