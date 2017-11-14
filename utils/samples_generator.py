@@ -1,5 +1,10 @@
 import numpy as np
 
+def make_cubic(n_samples, x_min, x_max, a=1, b=0, c=0, d=0, noise=0.0):
+    x = np.linspace(x_min, x_max, n_samples)
+    y = a*x**3 + b*x**2 + c*x + d + (2*noise*np.random.random(n_samples) - noise)
+    return x.reshape(-1,1), y.reshape(-1,1)
+
 def make_exp(n_samples, x_min, x_max, noise=0.0):
     x = np.linspace(x_min, x_max, n_samples)
     y = np.exp(x) + 2*noise*np.random.random(n_samples) - noise
@@ -24,9 +29,9 @@ def make_spiral(n_samples, n_class=2, radius=1, laps=1.0, noise=0.0):
         x[index] = np.c_[r * np.sin(t + delta_t) + random_noise,
                          r * np.cos(t + delta_t) + random_noise]
         y[index] = label
-    return x, y
+    return x, y.reshape(-1, 1)
 
-def make_square(n_samples, x_min, x_max, a=1, b=1, c=1, noise=0.0):
+def make_square(n_samples, x_min, x_max, a=1, b=0, c=0, noise=0.0):
     x = np.linspace(x_min, x_max, n_samples)
     y = a*x**2 + b*x + c + (2*noise*np.random.random(n_samples) - noise)
     return x.reshape(-1,1), y.reshape(-1,1)
