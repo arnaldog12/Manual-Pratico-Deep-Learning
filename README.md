@@ -1,39 +1,41 @@
 > Em desenvolvimento
 
-Este repositório contém todo o código-fonte do curso __Manual Prático do Deep Learning__ no Udemy (link em breve). Siga as instruções abaixo para instalação e configuração do repositório.
+Este repositório contém todo o código-fonte do curso __Manual Prático do Deep Learning__ no Udemy (link em breve).
+
+Para facilitar a execução do código pelos alunos, foi criado um ambiente conda. Siga as instruções abaixo para instalação e configuração desse ambiente.
 
 # Instalação
-
 1. Baixe ou clone o repositório.
 2. Baixe e instale o [Miniconda](https://conda.io/miniconda.html).
-3. Abra o terminal e vá para a pasta do repositório.
-4. Siga as instruções abaixo de acordo com o seu sistema operacional:
-    - No __Windows__
-        - Para instalar o ambiente:
-            ```sh
-            $ conda env create -f dl_win.yml
-            ```
-        - Para ativar o ambiente: 
-            ```sh
-            $ activate ml
-            ```
-    - No __Linux/Mac__:
-        - Para instalar o ambiente:
-            ```sh
-            $ conda env create -f dl_unix.yml
-            ```
-        - Para ativar o ambiente: 
-            ```sh
-            $ source activate ml
-            ```
-5. Execute o Jupyter Notebook:
+3. Abra o terminal e digite o seguinte comando para instalar o ambiente:
+    ```sh
+    $ conda create -n mpdl python=3.6 numpy pandas matplotlib=2.0.2 scikit-learn jupyter keras tensorflow
+    ```
+
+# Uso do ambiente
+
+> __Nota:  É obrigatório seguir as ordens da seção "Instalação" antes de utilizar o ambiente__.
+
+Siga os passos abaixo sempre que quiser executar os códigos desse repositório.
+1. Abra o terminal e digite:
+
+    - __Windows__:
+    ```sh
+    $ activate mpdl
+    ```
+    - __Linux/Mac__:
+    ```sh
+    $ source activate mpdl
+    ```
+2. Execute o Jupyter Notebook:
     ```sh
     $ jupyter notebook
     ```
-> A instalação do ambiente deve ser executada somente uma vez, enquanto o ambiente deve ser ativado sempre que você quiser executar os códigos do repositório.
 
-Se você preferir instalar todos os pacotes individualmente, digite:
-```sh
-$ conda create -n dl python=3.6 numpy pandas matplotlib jupyter scikit-learn widgetsnbextension tensorflow
-$ conda install -c conda-forge keras jupyter_contrib_nbextensions
-```
+Sinta-se à vontade para sanar qualquer dúvida diretamente com o professor do curso:
+
+:bust_in_silhouette: __Arnaldo Gualberto__:
+
+* arnaldo.g12@gmail.com
+* [Github](https://github.com/arnaldog12)
+* [Site Pessoal](http://arnaldogualberto.com)
