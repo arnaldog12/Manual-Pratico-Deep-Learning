@@ -9,7 +9,7 @@ Para facilitar a execução do código pelos alunos, foi criado um ambiente cond
 2. Baixe e instale o [Miniconda](https://conda.io/miniconda.html).
 3. Abra o terminal e digite o seguinte comando para instalar o ambiente:
     ```sh
-    $ conda create -n mpdl python=3.6 numpy pandas matplotlib=2.0.2 scikit-learn jupyter keras tensorflow
+    $ conda create -n mpdl python=3.6 numpy pandas matplotlib=2.0.2 scikit-learn jupyter
     ```
 
 # Uso do ambiente
