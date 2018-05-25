@@ -9,7 +9,7 @@ Para facilitar a execução do código pelos alunos, foi criado um ambiente cond
 2. Baixe e instale o [Miniconda](https://conda.io/miniconda.html).
 3. Abra o terminal e digite o seguinte comando para instalar o ambiente:
     ```sh
-    $ conda create -n mpdl python=3.6 numpy pandas matplotlib=2.0.2 scikit-learn jupyter
+    $ conda create -n mpdl python=3.6.5 numpy=1.14.3 pandas=0.23.0 matplotlib=2.2.2 scikit-learn=0.19.1 jupyter=1.0.0
     ```
 
 # Uso do ambiente
@@ -32,7 +32,16 @@ Siga os passos abaixo sempre que quiser executar os códigos desse repositório.
     $ jupyter notebook
     ```
 
-Sinta-se à vontade para sanar qualquer dúvida diretamente com o professor do curso:
+# Dúvidas ou sugestões?
+
+Sinta-se à vontade para sanar qualquer dúvida diretamente com o professor do curso utilizando o contato mais abaixo. Porém, de preferência a fazer perguntas no fórum do curso ou aqui mesmo no Github. Se possível, siga as orientações abaixo de acordo com o tipo da sua dúvida:
+
+- __Conteúdo teórico__: faça a pergunta dentro do próprio vídeo do udemy referente a pergunta ou utilize a seção FAQ do curso.
+- __Código__: abra uma issue aqui no repositório.
+
+> __Lembre-se que a sua dúvida pode acabar ajudando outras pessoas com a mesma dúvida!__
+
+# Contato
 
 :bust_in_silhouette: __Arnaldo Gualberto__:
 
