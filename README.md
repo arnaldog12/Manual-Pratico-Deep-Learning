@@ -9,7 +9,7 @@ Para facilitar a execução do código pelos alunos, foi criado um ambiente cond
 2. Baixe e instale o [Miniconda](https://conda.io/miniconda.html). (__Windows__: marque a opção de adicionar o conda às variáveis de ambiente (_$PATH_))
 3. Abra o terminal e digite o seguinte comando para instalar o ambiente:
     ```sh
-    $ conda create -n mpdl python=3.6.5 numpy=1.14.3 pandas=0.23.0 matplotlib=2.2.2 scikit-learn=0.19.1 jupyter=1.0.0
+    $ conda create -n mpdl python=3.6.5 numpy=1.14.3 pandas=0.23.4 matplotlib=2.2.2 scikit-learn=0.19.1 jupyter=1.0.0
     ```
 
 # Uso do ambiente
