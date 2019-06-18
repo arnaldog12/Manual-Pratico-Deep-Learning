@@ -2,7 +2,7 @@
 
 Este repositório contém todo o código-fonte do curso __Manual Prático do Deep Learning__ no Udemy (link em breve).
 
-Para facilitar a execução do código pelos alunos, foi criado um ambiente conda. Siga as instruções abaixo para instalação e configuração desse ambiente.
+# [Link para os slides](https://www.icloud.com/keynote/0LZvPsaugs7uCqr4TS-keRh-g#Manual)
 
 # Instalação
 1. Baixe ou clone o repositório.
