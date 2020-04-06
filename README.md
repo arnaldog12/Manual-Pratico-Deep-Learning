@@ -1,5 +1,3 @@
-> Em desenvolvimento
-
 Este repositório contém todo o código-fonte do curso __Manual Prático do Deep Learning__ no Udemy (link em breve).
 
 # [Link para os slides](https://www.icloud.com/keynote/0LZvPsaugs7uCqr4TS-keRh-g#Manual)
@@ -48,3 +46,4 @@ Sinta-se à vontade para sanar qualquer dúvida diretamente com o professor do c
 * arnaldo.g12@gmail.com
 * [Github](https://github.com/arnaldog12)
 * [Site Pessoal](http://arnaldogualberto.com)
+* [LinkedIn](https://www.linkedin.com/in/arnaldo-gualberto/)
