@@ -1,4 +1,4 @@
-Este repositório contém todo o código-fonte do curso __Manual Prático do Deep Learning__ no Udemy ([link](https://www.udemy.com/course/redes-neurais/)).
+Este repositório contém todo o código-fonte do curso __Manual Prático do Deep Learning__ na Udemy ([link](https://www.udemy.com/course/redes-neurais/)).
 
 # [Link para os slides](https://www.icloud.com/keynote/0LZvPsaugs7uCqr4TS-keRh-g#Manual)
 
