@@ -9,7 +9,7 @@ Este repositório contém todo o código-fonte do curso __Manual Prático do Dee
 2. Baixe e instale o [Miniconda](https://conda.io/miniconda.html). (__Windows__: marque a opção de adicionar o conda às variáveis de ambiente (_$PATH_))
 3. Abra o terminal e digite o seguinte comando para instalar o ambiente:
     ```sh
-    $ conda create -n mpdl python=3.6.5 numpy=1.14.3 pandas=0.23.4 matplotlib=2.2.2 scikit-learn=0.19.1 jupyter=1.0.0
+    $ conda create -n mpdl python=3.8.2 numpy=1.18.1 pandas=1.0.3 matplotlib=3.1.3 scikit-learn=0.22.1 jupyter=1.0.0
     ```
 
 # Uso do ambiente
